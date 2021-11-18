@@ -1,0 +1,90 @@
+body {
+    background-color: darkgrey;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 30pt;
+    color: lightgrey;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 20pt;
+    color: grey;
+}
+h3{
+    font-size: 15pt;
+    color: rgb(61, 61, 61);
+}
+span.dinos {
+    color: rgba(0, 99, 8, 0.356);
+}
+.rdinosaur {
+    background-color: slategray;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row-reverse;
+    width: 96%;
+}
+
+.rdinosaur img {
+    width: 500px;
+}
+
+.rdinosaur p {
+    font: small-caps bold 1.8rem Rubik;
+    text-align: right;
+    font-weight: 300;
+}
+
+.ldinosaur {
+    background-color: gainsboro;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    width: 96%;
+}
+
+.ldinosaur img {
+    width: 500px;
+}
+
+.ldinosaur p {
+    font: small-caps bold 1.8rem Rubik;
+    text-align: left;
+    font-weight: 300;
+}
+.classpic {
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+}
+
+.classpic img {
+    width: 45%;
+    height: 45%;
+    padding:20px;
+}
+.idpic {
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+}
+
+.idpic img {
+    width: 45%;
+    height: 45%;
+    padding:20px;
+}
+.alearn {
+    text-align: justify;  
+}
+.hlearn {
+    text-align:justify;
+    background-color: black
+}
+.llearn {
+    text-align: start;
+    font-size: 15pt;
+    color: rgb(61, 61, 61);  
+}
