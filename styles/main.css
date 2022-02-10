@@ -88,3 +88,39 @@ span.dinos {
     font-size: 15pt;
     color: rgb(61, 61, 61);  
 }
+
+@media (min-width: 320px) {
+    h1{
+        font-size: 50pt;
+    }
+    h2{
+        font-size: 30pt;
+    }
+    h3{
+        font-size: 25pt;
+    }
+}
+
+@media (min-width: 768px) {
+    h1{
+        font-size: 45pt;
+    }
+    h2{
+        font-size: 25pt;
+    }
+    h3{
+        font-size: 22pt;
+    }
+}
+
+@media (min-width: 1500px) {
+    h1{
+        font-size: 10pt;
+    }
+    h2{
+        font-size: 8pt;
+    }
+    h3{
+        font-size: 6pt;
+    }
+}
